@@ -6,8 +6,7 @@ from unidecode import unidecode
 from flask import Flask, request, render_template, redirect, abort
 
 # import all of mongoengine
-#from mongoengine import *
-from flask.ext.mongoengine import mongoengine
+from mongoengine import *
 
 # import data models
 import models
