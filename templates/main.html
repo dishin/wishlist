@@ -85,9 +85,55 @@
 	</div>
 </div>
 
-	
-
 </div>
+
+
+
+<div class="row">
+
+	<!-- left column -->
+	<div class="span3">
+		<h3>Your Wish Item List</h3>
+		
+
+
+  <div class="container">
+      	<div class="row-fluid">
+            <ul class="thumbnails">
+
+
+	
+		{% for idea in ideas %}
+
+		<li class="span3">
+			<div class="thumbnail">
+				<div class="caption">
+
+					 <img src="http://placehold.it/260x120" alt="">
+
+			<h4><a href="/ideas/{{ idea.slug }}">{{ idea.title }}</a></h4>
+			<p>by {{ idea.creator }}</p>
+			
+
+			<p>
+			{% for cat in idea.categories %}
+				<span class="label label-inverse"><a href="/category/{{ cat}}">{{ cat|replace("_"," ")}}</a></span>
+			</p>
+			
+			{% endfor %}
+			<hr/>
+
+		{% endfor %}
+
+		</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+
+
 
 {% endblock %}
 
