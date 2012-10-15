@@ -16,13 +16,19 @@ class Comment(EmbeddedDocument):
 
 class Idea(Document):
 
-	creator = StringField(max_length=120, required=True, verbose_name="First name")
-	title = StringField(max_length=120, required=True)
+	creator = StringField(max_length=120, required=True, verbose_name="Your Name", help_text="Please enter your first name")
+	title = StringField(max_length=120, required=True, verbose_name="Item Title")
+	#title = StringField(max_length=120, required=True)
 	slug = StringField()
-	idea = StringField(required=True, verbose_name="What is your idea?")
+	idea = StringField(required=True, verbose_name="Description")
+	#image = StringField(required=True, verbose_name="item image")
+	#idea = StringField(required=True, verbose_name="Description?")
 
 	# Category is a list of Strings
 	categories = ListField(StringField(max_length=30))
+
+	# Images
+	#images = ListField(StringField)
 
 	# Comments is a list of Document type 'Comments' defined above
 	comments = ListField( EmbeddedDocumentField(Comment) )
@@ -30,9 +36,6 @@ class Idea(Document):
 	# Timestamp will record the date and time idea was created.
 	timestamp = DateTimeField(default=datetime.now())
 
-
-# Create a Validation Form from the Idea model
 IdeaForm = model_form(Idea)
-
 	
 
