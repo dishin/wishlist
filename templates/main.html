@@ -5,10 +5,10 @@
 {% block body %}
 
 
-<div class="row">
+<div class="row-fluid">
 
 	<!-- left column -->
-	<div class="span6">
+	<!--<div class="span6">
 		<h3>Submitted Ideas</h3>
 
 		{% for idea in ideas %}
@@ -24,13 +24,13 @@
 			<hr/>
 		{% endfor %}
 		
-	</div>
+	</div>-->
 
 	<div class="span6">
 		
 
 		<form method="POST" action="/">
-			<legend><h3>Share Your Ideas</h3></legend>
+			<legend><h3>Share Your Wish Item</h3></legend>
 
 			{% if form.errors %}
 
@@ -64,7 +64,7 @@
 
 			<br>
 			<label>Category</label>
-			<span class="help-block">Select as many as you need.</span>
+			<span class="help-block">Pick Your Item Category</span>
 
 			
 			{# comment - loop through categories and create checkboxes #}
