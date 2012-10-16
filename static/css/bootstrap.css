@@ -168,7 +168,7 @@ body {
 
 a {
   /*color: #0088cc;*/
-  color: #000000;
+  color: #ffc0cb;
          
   text-decoration: none;
 }
@@ -928,7 +928,7 @@ legend {
 
 legend small {
   font-size: 15px;
-  color: #999999;
+  color: ;
 }
 
 label,
@@ -939,7 +939,7 @@ textarea {
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
-}
+}input
 
 input,
 button,
