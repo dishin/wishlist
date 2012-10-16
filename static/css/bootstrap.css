@@ -622,7 +622,8 @@ cite {
 }
 
 .text-info {
-  color: #3a87ad;
+  /*color: #3a87ad;*/
+  color: #ffc0cb;
 }
 
 .text-success {
