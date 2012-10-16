@@ -119,7 +119,7 @@
 			<p>
 			{% for cat in idea.categories %}
 				<span class="label label-inverse"><a href="/category/{{ cat}}">{{ cat|replace("_"," ")}}</a></span>
-			</p>
+			<!--</p>-->
 			
 			{% endfor %}
 			<a class="label" href="/ideas/{{ idea.slug }}/edit">edit</a>
@@ -128,7 +128,7 @@
 
 			<form method="POST" action="/">
 				<div class="btn-group" style="float:left;">
-				<button type="submit" name="do" value="like" class="btn btn-mini" style="margin-right: 8px;"><i class="icon-thumbs-up"></i></button><!--<button type="submit" name="do" value="dislike" class="btn btn-mini" style="margin-right: 8px;"><i class="icon-thumbs-down"></i></button>-->
+				<button type="submit" name="do" value="like" class="btn btn-mini" style="margin-right: 8px;"><i class="icon-heart"></i></button><!--<button type="submit" name="do" value="dislike" class="btn btn-mini" style="margin-right: 8px;"><i class="icon-thumbs-down"></i></button>-->
 				</div><input type="hidden" name="id" value="507ac1f6dd591900079e9240">
 				<input type="hidden" name="response" value="LOVE">
 					<p style="float:left;"> LOVE
@@ -149,7 +149,13 @@
 </li>
 </ul>
 </div>
-</div>
+
+
+
+
+
+
+
 
 
 
