@@ -30,10 +30,7 @@ font-family: Apex;
 src: url('/static/fonts/ApexNew-Medium.otf');
 } */
 
-.pageheader{
-	background-image:url('/static/img/wishlist.png');	
-	font-family: Apex;
-}
+
 
 body{
 	background-image:url('/static/img/cork.png');	
