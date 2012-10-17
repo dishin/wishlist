@@ -163,9 +163,10 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333
-  /*background-color: #ffffff;*/
+  
   background-image: url('/static/img/cork.png');
-}
+
+  }
 
 a {
   color: #0088cc;
