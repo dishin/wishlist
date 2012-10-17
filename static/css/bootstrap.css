@@ -162,21 +162,19 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  /*color: #333333*/
-  color: #ffc0cb;
+  color: #333333
   background-color: #ffffff;
 }
 
 a {
-  /*color: #0088cc;*/
-  color: #ffc0cb;
+  color: #0088cc;
+
          
   text-decoration: none;
 }
 
 a:hover {
-  /*color: #005580;*/
-  color: #ffc0cb;
+  color: #005580;
   text-decoration: underline;
 }
 
@@ -623,8 +621,8 @@ cite {
 }
 
 .text-info {
-  /*color: #3a87ad;*/
-  color: #ffc0cb;
+  color: #3a87ad;
+
 }
 
 .text-success {
