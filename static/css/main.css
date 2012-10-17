@@ -15,7 +15,7 @@
    Author's custom styles
    ========================================================================== */
 
-@font-face {
+/*@font-face {
 font-family: ApexBold;
 src: url('/static/fonts/ApexNew-Bold.otf');
 } 
@@ -28,7 +28,7 @@ src: url('/static/fonts/ApexNew-Book.otf');
 @font-face {
 font-family: Apex;
 src: url('/static/fonts/ApexNew-Medium.otf');
-} 
+} */
 
 body{
 	background-image:url('/static/img/cork.png');	
