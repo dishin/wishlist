@@ -32,10 +32,6 @@ src: url('/static/fonts/ApexNew-Medium.otf');
 
 
 
-body{
-	background-image: url('/static/img/cork.png');	
-	font-family: Apex;
-}
 
 #container{
 	width:1000px;
