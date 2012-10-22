@@ -1,4 +1,4 @@
-
+ 
 
 /* ==========================================================================
    Author's custom styles
@@ -34,39 +34,12 @@ src: url('/static/fonts/ApexNew-Medium.otf');
 
 
 
-.subtitle{
+body{
 	font-family: ApexBook;
 	color: #cc3232;
 	font-size: 1.7em;
 }
 
-.board{
-font-size: 1em;
-text-transform: uppercase;
-}
-
-.item{
-margin-right: 50px;
-}
-
-.posttitles{
-font-family: ApexBold;
-color: #663300;
-}
-
-table{
-text-align:left;
-}
-
-.info{
-font-size:.9em;
-color: black;
-}
-
-.infoone{
-font-size:.9em;
-color: #cc3232;
-}
 
 a{
 font-size:.7em;
@@ -79,28 +52,6 @@ color: #ffc0cb;
 text-decoration:none;
 }
 
-.join{
-font-size:.8em;
-color: #ffc0cb;
-}
-
-td, th{
-padding-right: 20px;
-}
-
-th{
-color: #663300;
-padding-bottom: 10px;
-}
-
-hr{
-border: 0; border-top: 1px solid black;
-}
-
-.btn-group{
-color: #ffc0cb;
-
-}
 
 
 
