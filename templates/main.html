@@ -111,7 +111,8 @@
 			<div class="thumbnail">
 				<!--<div class="caption">-->
 
-					 <img src="http://placehold.it/260x120" alt="">
+					 <!--<img src="http://placehold.it/260x120" alt="">-->
+					 <img src="{{ url_for('static', filename='img/260x120.gif') }}" width= "260" height = "120">
 
 			<h4><a href="/ideas/{{ idea.slug }}">{{ idea.title }}</a></h4>
 			<p>by {{ idea.creator }}</p>
