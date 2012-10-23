@@ -35,7 +35,7 @@ src: url('/static/fonts/ApexNew-Medium.otf');
 
 
 body{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Archer;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:  #7b7c7d;
 	font-size: 1em;
 }
@@ -47,18 +47,18 @@ color: #000000;
 
 a{
 font-size:.7em;
-color:  #0777b8;
+color:   #e843e3;
 }
 
 a:hover{
 font-size:.7em;
-color:  #0777b8;
+color:   #e843e3;
 text-decoration:none;
 }
 
 footer{
 font-size:1em;
-color:  #0777b8;
+color:   #e843e3;
 }
 
 
